@@ -2,7 +2,7 @@
 A simple Spring Boot REST API for Category and Product management. Built using Spring Boot, JPA, Hibernate, and MySQL. Includes basic CRUD operations, pagination, and one-to-many relationship between Category and Products. All APIs tested using Postman.
 
 How did you run the code?  
-I used VS Code, made sure my MySQL database was running with the correct settings in the `application.properties` file, and ran the main class. The server started on port 8080.
+I used VS Code, made sure my MySQL database was running with the correct settings in the `application.properties`  file for MySQL. I ran the application by executing the Spring Boot main class. The server started on port 8080.
 
 How did you run the machine test?  
 I used Postman to test the REST APIs. I sent GET, POST, PUT, and DELETE requests to the API endpoints for categories and products, checked the responses, and verified pagination by using the `page` parameter.
